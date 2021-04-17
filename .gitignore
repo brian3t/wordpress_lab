@@ -1,0 +1,6 @@
+./reg
+./reg/*
+./wp-content/uploads
+./wp-content/uploads/*
+.idea
+.idea/*
