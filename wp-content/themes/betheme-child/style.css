@@ -1,0 +1,1614 @@
+/*
+Theme Name: Betheme Child
+Theme URI: https://themes.muffingroup.com/betheme
+Author: Muffin group
+Author URI: https://muffingroup.com
+Description: Child Theme for Betheme
+Template:	betheme
+Version: 1.6.1.2
+*/
+
+/*LABYRINTH, INC */
+h1,
+h2,
+h3,
+h4,
+#resources-Header#resources-Header .text-logo #logo {
+    font-family: Adobe Devanagari !important;
+}
+
+.blue-font h3 {
+    color: #005099;
+    font-weight: 600;
+}
+
+.blue-font h2 {
+    color: #005099;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.blue-font h1 {
+    color: #005099;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #747474;
+}
+
+.experience-box {
+    margin-bottom: 5px;
+}
+
+.blue-font.home-quote2 {
+    font-size: 20px;
+    line-height: 40px;
+    color: #747474;
+}
+
+.blue-font.home-quote span {
+    font-size: 20px;
+    line-height: 40px;
+    color: #055199;
+}
+
+.home-text p {
+    font-size: 1.2em;
+    line-height: 1.75em;
+    color: #343434;
+}
+/*---------MAIN MENU----------*/
+
+li#menu-item-35 span {
+    font-size: 22px;
+}
+
+#Top_bar .menu > li > a:hover {
+    border-bottom: solid 3px #6a8292;
+}
+
+@media (min-width: 1024px) {
+    #Top_bar .menu > li > a {
+        height: 30px;
+        width: fit-content;
+    }
+}
+
+
+/*----------- Header Mobile ---------*/
+
+@media only screen and (max-width: 767px) {
+    body:not(.template-slider):not(.header-simple) #Header {
+        min-height: 0px !important;
+        background-position: center 202px;
+    }
+    }
+
+/*-----------  SLIDER --------------*/
+
+div#slide-6-layer-2 {
+    font-family: 'Adobe Devanagari' !important;
+}
+
+.ares .tp-bullet-title {
+    display: none;
+}
+
+.ares .tp-bullet:hover,
+.ares .tp-bullet.selected {
+    background: #ffffff;
+}
+
+.ares .tp-bullet {
+    background: #005099;
+}
+
+.slick-track {
+    margin-top: 40px;
+}
+
+.nav-slide {
+    margin: 0 10px;
+}
+
+.slick-dots {
+    position: relative;
+    top: 20px;
+}
+/*-------------------LIST ICON--------------------*/
+
+ul.no_bullet {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-width: 90%;
+    line-height: initial;}
+
+li.checkmark {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/blue-checkmark-30px.png);
+    height: 50px;
+    padding-left: 44px;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-position-y: 24%;
+    color: #343434;
+    line-height: initial;
+}
+
+li.checkmark-2 {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/blue-checkmark-30px.png);
+    height: 50px;
+    padding-left: 44px;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-position-y: 0%;
+    color: #343434;
+    line-height: initial;
+}
+
+li.checkmark-3 {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/blue-checkmark-30px.png);
+    height: 50px;
+    padding-left: 44px;
+    padding-top: 0px;
+    background-repeat: no-repeat;
+    background-position-y: 0%;
+    color: #343434;
+    line-height: initial;
+}
+
+.checklist-spacing {
+    font-size: 18px;
+    display: inline-block;
+    margin-bottom: 18px !important;
+    line-height: initial;
+    margin-top: 20px;
+}
+
+li.phone-icon {
+    background: url('https://www.labyrinthinc.com/wp-content/uploads/2019/01/phone-icon.png') no-repeat left top;
+    background-size: 28px;
+    height: 54px;
+    padding-left: 44px;
+    padding-top: 3px;
+}
+
+li.letter-icon {
+    background: url('https://www.labyrinthinc.com/wp-content/uploads/2019/01/email-icon.png') no-repeat left top;
+    height: 54px;
+    background-size: 28px;
+    padding-left: 44px;
+    padding-top: 3px;
+}
+/*CLIENT SUCCESS STORIES*/
+
+.home-quote h5:before {
+    content: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/quote-left-50.png);
+    transform: scaleX(-1);
+    margin-right: 0;
+    position: absolute;
+}
+
+.home-quote:after {
+    content: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/quote-right.png);
+    position: absolute;
+    margin-left: 3px;
+}
+
+.home-quote2 h5:before {
+    content: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/left-quote-7op.png);
+    margin: -14px;
+    position: absolute;
+}
+
+.home-quote2 h5:after {
+    content: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/right-quote-7op.png);
+    position: absolute;
+    margin-left: 16px;
+    right: 55px;
+}
+
+img.scale-with-grid.box-shadow {
+    box-shadow: 9px 12px 23px 5px rgba(0, 0, 0, 0.3);
+}
+/*----------------------BUTTONS----------------*/
+
+a.button1 {
+    background-color: #005099;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    background-image: none !important;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-right: 7px;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 120%;
+    padding: 15px 75px !important;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+a.button2 {
+    background-color: #005099;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    background-image: none !important;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-right: 7px;
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    line-height: 120%;
+    padding: 10px 30px !important;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+a.button1:hover {
+    background-color: #78706D;
+    text-decoration: none;
+    /*    transform: scale(1.1);*/
+        color: white;
+}
+
+a.button2:hover {
+    background-color: #78706D;
+    text-decoration: none;
+    /*    transform: scale(1.1);*/
+}
+
+.btn-center {
+    text-align: center;
+    padding: 20px;
+}
+
+.transparent-button {
+    padding: 5px 40px 5px !important;
+    background-color: transparent !important;
+    border-radius: 5px !important;
+    min-width: 183px;
+    border: solid 2px #005099 !important;
+    font-family: "Noto Sans";
+    font-size: 18pt;
+}
+
+.transparent-button span {
+    text-align: center !important;
+    float: none !important;
+    font-family: "Noto Sans";
+}
+
+.contact-us-button {
+    padding: 5px 50px 5px !important;
+    border-radius: 5px !important;
+    font-family: "Noto Sans";
+    font-size: 18pt;
+}
+
+.button-align-left {
+    padding: 0;
+    margin-left: 16px;
+}
+/*------------------------INTERIOR PAGES--------------*/
+/*FAQ*/
+
+p.faq-content {
+    font-family: 'Noto Sans';
+}
+
+#Subheader {
+    display: none;
+}
+
+#Subheader .title {
+    font-size: 50px !important;
+    line-height: 35px;
+    font-weight: 400;
+    font-family: Adobe Devanagari !important;
+    color: #005099 !important;
+    font-style: normal !important;
+}
+
+body.page-id-6016 #Subheader {
+    display: block;
+    background-image: url('https://www.labyrinthinc.com/wp-content/uploads/2019/03/texture-bg-copy.jpg');
+}
+
+.accordion .question.active .title {
+    color: #055199 !important;
+}
+
+.accordion .question .title {
+    padding: 14px 14px 14px 60px;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    border-width: 0;
+    border-style: solid;
+    cursor: pointer;
+    background: #f9f9f9;
+    box-shadow: inset 0px 4px 3px -2px rgba(0, 0, 0, .04);
+    font-family: 'Noto Sans';
+}
+
+.icon-plus:before {
+    content: '\e8fb';
+    color: #055199;
+}
+
+.subheader-both-center #Subheader .breadcrumbs {
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    display: none !important;
+}
+/*Resources Pages*/
+
+.column.mcb-column.mcb-item-w1g94vei8.one.column_column.opacity-fix {
+    opacity: .5;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+    float: none;
+}
+
+.column.mcb-column.mcb-item-0fedlqtft.one.column_video.center-video {
+    text-align: center;
+}
+
+.resources-margin {
+    margin-top: 45px;
+}
+
+.resources-margin-top-bot {
+    margin-top: 45px;
+    margin-bottom: 45px
+}
+
+.shadow-box-resources {
+    max-width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border: 3px solid lightgray;
+    margin: 0 auto;
+    display: inline-block;
+    background: #e4e4e4;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 45px;
+    margin-top: 25px;
+}
+/*Contact Us Page*/
+
+#Content {
+    width: 100%;
+    padding-top: 0px;
+}
+
+
+#wpcf7-f7-p65-o1 input[type="email"],
+#wpcf7-f7-p65-o1 input[type="tel"],
+#wpcf7-f7-p65-o1 textarea {
+    border: 1px solid #ece9e9; 
+}
+/*----Our Services----*/
+
+/*Video & Testimonial*/
+
+.interior-quote-2 {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-left: 23px;
+}
+
+.column.mcb-column.mcb-item-qnlx55kor.two-fifth.column_video.margin-registration {
+    margin-top: 45px;
+}
+/*--*/
+
+@media (min-width: 1024px) {
+    body.page-id-25.h2 {
+        font-size: 30px;
+        line-height: 34px;
+        font-weight: 300;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+}
+/* Careers */
+
+body.page-id-6191 h3 {
+    font-family: "Noto Sans";
+    line-height: 2;
+    max-width: 985px;
+}
+
+@media (min-width:1200px) {
+    .career-heading {
+        max-width: 325px !important;
+    }
+}
+
+@media (min-width:784px) {
+    .mcb-item-5xnw5gu72 {
+        position: relative;
+        bottom: 34px;
+    }
+    .mcb-item-ulm4mr2ew {
+        position: relative;
+        left: 105px;
+    }
+    .mcb-wrap-31caabm6r {
+        position: relative;
+        left: 92px;
+    }
+    .benefits {
+        position: relative;
+        left: 26px;
+    }
+}
+
+@media (max-width:784px) {
+    .benefits > li > img {
+        position: relative;
+        top: 37px !important;
+    }
+    .career-heading {
+        text-align: center;
+    }
+}
+
+@media (max-width: 542px) {
+    .benefits > li > img {
+        right: 47px !important;
+    }
+}
+
+.benefits > li > img {
+    position: relative;
+    right: 60px;
+    top: 48px;
+}
+/*Top tab*/
+
+.tabs-title {
+    text-align: left;
+    border-bottom: solid 3px #005099;
+    width: fit-content;
+    font-family: Adobe Devanagari;
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 15px;
+    width: -moz-fit-content;
+    color: #545455;
+}
+@media (max-width: 440px) {
+    .tabs-title {
+        line-height: initial;
+    }
+}
+@media (min-width: 1024px) {
+    .tabs-p-title {
+        /*margin: 0 0 -15px;*/
+        max-width: 50%;
+       /*line-height: initial;*/
+    }
+    }
+
+.tabs-p-title {
+    color: black;
+    font-family: "Noto Sans";
+    font-size: 21px;
+    color: #545455;
+    line-height: initial;
+}
+/*Tab Second Column*/
+
+@media (max-width:1024px) {
+    .tabs-title-2 {
+        text-align: center;
+         color: #005099;
+         font-size: 26px;
+        line-height: initial;
+    }
+    .tabs-p-2 {
+        text-align: center;
+    }
+}
+
+.tabs-p-2 {
+    font-family: "Noto Sans";
+    font-size: 19px;
+    /*margin: 0px 15px 35px !important;*/
+    color: #343434;
+    line-height: 1.5;
+}
+
+@media (min-width: 1024px) {
+    .tabs-title-2 {
+        color: #005099;
+        text-align: left;
+        /*padding-left: 10px;*/
+        /*margin: 0px 0px 25px;*/
+        font-family: "Noto Sans";
+        font-size: 28px;
+        line-height: initial;
+    }
+    .tabs-p-2 {
+        /*margin: 0px 15px 20px !important;*/
+    }
+}
+
+@media (max-width: 1024px) {
+    body.page-id-25 li.checkmark {
+        background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/blue-checkmark-30px.png);
+        padding-left: 44px;
+        padding-top: 0px;
+        background-repeat: no-repeat;
+        background-position-y: 6%;
+        line-height: 24px !important;
+    }
+}
+/*Corporate Annual Reports*/
+
+ul.services-bullet-corp {
+    font-size: 13pt;
+    color: #343434 !important;
+}
+/*Other Services*/
+
+.wrap.mcb-wrap.mcb-wrap-co90uhnbo.one.valign-top.clearfix p.tabs-p-other {
+    font-size: 13pt;
+    color: #343434;
+    max-width: 75%;
+    min-height: 126px;
+}
+
+.wrap.mcb-wrap.mcb-wrap-xgajuh5ap.one.valign-top.clearfix p.tabs-p-other {
+    font-size: 13pt;
+    color: #343434;
+    max-width: 75%;
+    min-height: 175px;
+}
+
+.other-services-edit {
+    font-size: 15pt;
+}
+
+.tabs-p-title-other {
+    font-family: "Noto Sans";
+    font-size: 1.8em;
+    color: #545455;
+    margin-bottom: 20px !important;
+    line-height: initial;
+
+}
+
+@media (min-width: 1024px) {
+.tabs-p-title-other {
+    margin: 0 0 -15px;
+    max-width: 50%;
+    line-height: initial;
+}
+}
+
+li.other-services-edit {
+    color: #545455;
+    line-height: initial;
+}
+
+.two-columns {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    -webkit-column-gap: 30px;
+    column-gap: 30px;
+    -moz-column-gap: 30px;
+    color: black !important;
+    font-family: "Noto Sans";
+}
+
+ul.other-services-list {
+    color: black;
+    font-size: 13pt;
+    color: #343434;
+    list-style-type: none !important;
+}
+
+p.tabs-p-other {
+    font-size: 13pt;
+    color: #343434;
+    max-width:70%;
+    line-height:23px
+}
+
+img.other-img-margin {
+    margin-bottom: 20px;
+    max-height: 269px;
+}
+@media (min-width: 768px) {
+    img.other-img-margin {
+        max-width: 431px !important;
+    }
+}
+body.page-id-25 form#other-services-form input#form-contact-button:hover {
+    background-color: #78706D !important;
+    color: #fff !important;
+    transition: all 0.5s ease-in-out;
+}
+
+body.page-id-25 form#other-services-form #form-contact-button {
+    color: #005099;
+    background-color: #fff;
+    font-family: "Noto Sans" !important;
+    font-weight: 501;
+}
+
+@media (max-width:768px) {
+  body.page-id-25 form#other-services-form .your-name,
+  body.page-id-25 form#other-services-form .your-email,
+  body.page-id-25 form#other-services-form .your-phone,
+  body.page-id-25 form#other-services-form .your-organization {
+      float: none !important;
+      width: 100% !important;
+  }
+}
+
+body.page-id-25 form#other-services-form .your-name,
+body.page-id-25 form#other-services-form .your-email,
+body.page-id-25 form#other-services-form .your-phone,
+body.page-id-25 form#other-services-form .your-organization {
+    float: left;
+    margin: 25px 16px 0px;
+    width: 49%;
+    color: #000 !important;
+    border-radius: 4px;
+}
+
+body.page-id-25 form#other-services-form .wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea {
+    background: #ccc !important;
+    border: none;
+}
+
+body.page-id-25 form#other-services-form input:not([type='submit']) {
+    background-color: #ccc !important;
+    border: none;
+    border-radius: 4px;
+}
+
+form#other-services-form input::placeholder,
+form#other-services-form textarea::placeholder {
+    color: #4c4c4c;
+}
+
+
+
+  body.page-id-25 form#other-services-form .your-message {
+      width: 99.5% !important;
+      margin: 25px 16px 12px;
+  }
+
+
+body.page-id-25 form#other-services-form textarea.wpcf7-form-control.wpcf7-textarea {
+    border: none;
+    background-color: #ccc !important;
+}
+
+body.page-id-25 form#other-services-form #form-contact-button {
+    float: right;
+    margin: 20px 55px 10px 0;
+}
+
+form#other-services-form .form-input-wrap {
+    width: 99%;
+    float: none;
+    display: -webkit-inline-box;
+}
+
+/*Interior Other Services*/
+
+body.page-id-6117 span.wpcf7-form-control-wrap {
+    width: 80%;
+    position: relative!important;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+body.page-id-6251 span.wpcf7-form-control-wrap {
+    width: 80%;
+    position: relative!important;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+
+form.wpcf7-form.other-services-form {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 1024px) {
+.interior-form-col {
+    position: absolute;
+    top: -211px;
+    right: -70px;
+}
+}
+
+/* ul.no_bullet {
+    height: 203px;
+} */
+.form-overlap ul.no_bullet {
+    min-height: 203px;
+}
+/* ------------Resources Page-------------*/
+
+.linkText {
+    margin: 0px;
+    padding: 10px;
+    font-family: "Noto Sans";
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.3em;
+    display: inline-block;
+    color: #443d3d;
+}
+
+.linkText:hover {
+    text-decoration: none;
+    margin: auto;
+    color: #443d3d;
+}
+
+hr.ResourceLine {
+    max-width: 50%;
+    border-top: 3px solid #005295;
+}
+
+.Resource-Btn:hover hr.ResourceLine {
+    max-width: 100%;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+.Resource-Btn {
+    background-color: rgba(234, 234, 234, 0.5);
+    padding: 10px 10px 5px 10px;
+    transition: background-color 0.5s ease;
+    width: 100%;
+    min-height: 80px;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+}
+
+.Resource-Btn:hover {
+    background-color: rgba(234, 234, 234, 0.85);
+    padding: 10px 10px 5px 10px;
+}
+
+.resources-hover-box-wrap {
+    z-index: 99;
+}
+/* ****************Backup-RESOURCE HOVER IMAGES****************
+.resourceImg-one {
+background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/Annual-Charitable-State-Registration-Info.jpg) !important;
+}
+
+.resourceImg-two {
+background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/exemptions.jpg) !important;
+}
+
+.resourceImg-three {
+background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/Charity-State-Regulations.jpg) !important;
+}
+
+.resourceImg-four {
+background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/Charity-Fundraising-Laws.jpg) !important;
+}
+
+.resourceImg-five {
+background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/Non-Profit-Regulations-Requirements.jpg) !important;
+}
+
+.resourceImg-six {
+background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/slider2-1630x731.png) !important;
+}
+
+.resourceImg-seven {
+background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/Registered-Agents.jpg) !important;
+}
+
+.resourceImg-eight {
+background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/corperate-filings.jpg) !important;
+}
+
+.resourceImg-nine {
+background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/Commercial-Co-Venturer.jpg) !important;
+}
+*/
+
+.placeholder {
+    display: none;
+}
+
+body.page-id-107 .one.column {
+    position: static;
+    margin: 0;
+}
+
+div#wpcf7-f121-p25-o5 p {
+    margin: 0 !important;
+}
+@media (min-width:1240px) {
+  body.page-id-107 #wpcf7-f121-p107-o1 .your-name,
+  body.page-id-107 #wpcf7-f121-p107-o1 .your-email,
+  body.page-id-107 #wpcf7-f121-p107-o1 .your-phone,
+  body.page-id-107 #wpcf7-f121-p107-o1 .your-organization {
+      float: left;
+      width: 47.5% !important;
+      margin: 25px 12.5px 0 12.5px;
+      color: #000 !important;
+      border-radius: 4px;
+  }
+
+  body.page-id-107 #wpcf7-f121-p107-o1 .your-message {
+      width: 97.5% !important;
+      margin: 25px 12px 0 12px;
+  }
+}
+
+
+
+body.page-id-107 textarea.wpcf7-form-control.wpcf7-textarea {
+    border: none;
+    background-color: #ccc !important;
+}
+
+body.page-id-107 #form-contact-button {
+    float: none;
+    margin: 20px 55px 10px 14px;
+}
+/* ---Resource Form Border
+body.page-id-107 form.wpcf7-form {
+border: 2px solid #ccc;
+padding: 0 0 50px 0;
+}
+*/
+
+#resources-Header {
+    transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -webkit-transition: all 0.2s linear;
+    -o-transition: background 0.2s linear;
+    background-position: 50% 22%;
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/06/Resources-banner.jpg);
+}
+
+body.page-id-107 #wpcf7-f121-p107-o1 input:not([type='submit']) {
+    background-color: #ccc !important;
+    border: none;
+    border-radius: 4px;
+}
+@media (max-width:768px) {
+  body.page-id-107 #wpcf7-f121-p107-o1 input:not([type='submit']) {
+     width: 100%;
+  }
+}
+div#wpcf7-f121-p107-o1 input::placeholder,
+div#wpcf7-f121-p107-o1 textarea::placeholder {
+    color: #4c4c4c;
+}
+/* .resources-bg-wrap {
+width: 100% !important;
+position: absolute;
+z-index: -1;
+margin: 0;
+}
+.resources-bg-wrap img {
+position: absolute;
+width: 100%;
+} */
+
+.resources-bg-wrap {
+    display: none;
+}
+
+.form-input-wrap {
+    width: 100%;
+    display: block;
+    float: none;
+    /*display: inline-block;*/
+}
+
+.resourceIndex {
+    opacity: 1 !important;
+}
+
+.resource-one {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/06/slider2.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+/*
+.resource-two {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/exemptions.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+*/
+
+.resource-three {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/06/Charity-Fundraising-Laws.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+/*
+.resource-four {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/Charity-Fundraising-Laws.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+*/
+
+.resource-five {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/06/slider1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.resource-six {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/06/slider-hands.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.resource-seven {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/06/corperate-filings.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.resource-eight {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/06/Registered-Agents.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+/*
+
+.resource-nine {
+    background-image: url(https://www.labyrinthinc.com/wp-content/uploads/2019/01/Commercial-Co-Venturer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s ease;
+*/
+}
+/*###################### Contact Form Interior Pages ########################*/
+
+body.page-id-25 div.wpcf7 {
+    border: none;
+   /* width: 70%;*/
+    padding: 25px 25px;
+    border-radius: 7px;
+    margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+    .interior-form-col {
+        position: absolute;
+        top: -211px;
+        right: -70px;
+    }
+}
+
+.interior-form-col p {
+    text-align: center;
+}
+
+.interior-form-col .wpcf7-form textarea {
+    height: 90px;
+    background-color: #fff;
+}
+
+#form-contact-button {
+    color: #005099;
+    background-color: #fff;
+    font-family: "Noto Sans" !important;
+    font-weight: 500;
+    margin-bottom: 16px !important;
+}
+
+input#form-contact-button:hover {
+    color: #fff;
+    background-color: #78706D;
+    transition: all 0.5s ease-in-out;
+}
+
+body.page-id-25 #form-contact-button {
+    color: #005099;
+    background-color: #fff;
+    font-family: "Noto Sans" !important;
+    font-weight: 501;
+}
+
+body.page-id-25 input#form-contact-button:hover {
+    color: #fff;
+    background-color: #005099;
+    transition: all 0.5s ease-in-out;
+}
+
+body.page-id-25 .wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea {
+    border-radius: 3px;
+    background-color: #fff !important;
+}
+
+.pg25 {
+    margin-bottom: 30px !important;
+}
+
+@media (min-width: 1024px) {
+    body.page-id-25 .interior-form-col div.wpcf7 {
+        padding: 35px 30px;
+        margin: 16px auto 0px auto !important;
+        outline: none;
+        text-align: center;
+    }
+    body.page-id-25 label,
+    legend {
+        display: block;
+        margin-bottom: 10px;
+        font-weight: 700;
+    }
+}
+
+body.page-id-25 .interior-form-col div.wpcf7 {
+    text-align: center;
+}
+/*---------BlockQuote Interior Pages---------*/
+
+.quote-wrap img {
+    display: inline-block;
+}
+
+.quote-wrap p {
+    font-family: "Noto Sans";
+    display: inline-block;
+}
+
+@media (min-width: 1024px) {
+    .quote-wrap p {
+        vertical-align: top;
+        margin-top: 62px;
+        margin-left: 30px;
+    }
+}
+
+.form-font {
+    font-family: "Noto Sans";
+    line-height:25px
+}
+
+@media (max-width: 1024px) {
+    body.page-id-25 .home-quote {
+        font-size: 13px !important;
+    }
+}
+/*------------------INTERIOR PAGE NAV BAR TABS---------------------*/
+
+body:not(.template-slider) #Header {
+    min-height: 0;
+}
+
+ul.sub-nav-bar li {
+    float: left;
+    margin: 16px;
+}
+
+ul.sub-nav-bar {
+    list-style: none;
+    margin: 0 auto;
+    font-size: 15pt;
+    font-family: "Noto Sans";
+    display: block;
+    width: fit-content;
+    width: -moz-fit-content;
+}
+
+.switch-tabs {
+    display: block;
+}
+
+.tab-active {
+    display: block;
+}
+
+.int-sub-nav-link {
+    color: black;
+}
+
+.int-sub-nav-link.active {
+    color: #005099 !important;
+    font-weight: bold;
+}
+/*----------------TESTIMONIAL SLIDER-----------------*/
+
+.testimonial-heading h2 {
+    color: #005099;
+    font-weight: 600;
+    font-size: 40px;
+    text-align: center;
+}
+
+.strong-view.default .testimonial-inner {
+    border: none;
+    padding: 0;
+    text-align: left;
+    font-family: "Noto Sans";
+}
+
+.strong-view.default .testimonial {
+    border: none;
+}
+
+.testimonial-slider h4 {
+    font-family: "Noto Sans";
+    line-height: 38px;
+}
+
+.testimonial-slider p {
+    font-family: "Noto Sans";
+    text-align: left;
+}
+
+.strong-view.default .testimonial-heading {
+    display: none;
+}
+
+.strong-view.default .testimonial-image {
+    box-shadow: 5px 5px 8px 3px rgba(0, 0, 0, 0.14);
+}
+
+.strong-view.simple .testimonial-image {
+    margin-right: 6em;
+}
+
+h5.testimonial-text {
+    font-family: "Noto Sans";
+    line-height: 35px;
+    font-size: 18px;
+    text-align: left;
+    color: #343434;
+    padding-top: 51px;
+}
+@media(min-width: 1400px) {
+	h5.testimonial-text {
+		margin-top: 23px;
+	}
+}
+
+p.quote-text {
+    font-family: "Noto Sans";
+    color: #868585;
+    float: right;
+}
+/*------------------------FOOTER----------------*/
+
+@media (min-width:770px) {
+    .footer-services h4 {
+        text-align: left;
+    }
+    .social-icons.footer-box-bottom {
+        position: relative;
+        top: 30px;
+    }
+    .column.one-third.center-ft {
+        display: inline-block;
+        margin: 0 auto;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+    .sub-footer {
+        margin: 0;
+    }
+    .social-icons img {
+        padding-right: 12px;
+        ;
+        height: 21px;
+    }
+    hr.hr_narrow {
+        width: 100%;
+        background-color: #005099;
+    }
+    .footer-services {
+        line-height: 28px;
+        font-size: 16px;
+    }
+    ul.no-bullet-sitemap {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        line-height: 16px;
+    }
+    span.social-icons i {
+        padding-right: 10px;
+    }
+    .col.footer-client-logos {
+        margin: 0 auto;
+        text-align: center;
+        margin: 35px 0;
+    }
+    .footer-hr-blue {
+        background-color: #005099;
+        width: 90%;
+    }
+    .footer-hr-grey {
+        background-color: #DCDCDC;
+        width: 90%;
+    }
+    .column.one-second.center-footer {
+        width: 8% !important;
+        margin-right: -395px !important;
+        margin-left: 465px !important;
+        margin-top: 0px;
+    }
+    .column.one-second.center-footer.center-footer-2 {
+        margin-top: 0px !important;
+    }
+    @media (max-width: 1239px) {
+        .column.one-second.center-footer {
+            width: 27% !important;
+            margin-right: -435px !important;
+            margin-left: 325px !important;
+            margin-top: 0px;
+        }
+    }
+    @media (max-width: 959px) {
+        .column.one-second.center-footer {
+            width: 50% !important;
+            margin-right: -435px !important;
+            margin-left: 220px !important;
+            margin-top: 0px;
+        }
+    }
+    @media (max-width: 768px) {
+        .column.one-second.center-footer {
+            width: 25% !important;
+            margin-right: -435px !important;
+            margin-left: 175px !important;
+            margin-top: 0px;
+        }
+    }
+    @media (max-width:720px) {
+        .column.one-second.center-footer {
+            width: 25% !important;
+            margin-right: -435px !important;
+            margin-left: 175px !important;
+            display: contents;
+            margin-top: 0px;
+        }
+    }
+    .column.one-second.center-footer.center-footer-2 {
+        margin-top: 20px;
+    }
+    /*----------------------MOBILE-----------------*/
+    #Side_slide {
+            background-color: #005099;
+    }
+    @media (max-width: 768px) {
+        .blue-font h2 {
+            line-height: 44px;
+        }
+    }
+    @media (max-width: 768px) {
+        .sub-footer {
+            text-align: center;
+            padding-bottom: 30px;
+        }
+    }
+    @media (max-width: 768px) {
+        .footer-box-bottom {
+            margin: 0 auto;
+            text-align: center;
+            padding-bottom: 5px;
+        }
+    }
+    @media (max-width: 768px) {
+        p.space-down {
+            padding-top: 15px;
+        }
+    }
+    
+    @media (max-width: 1127px) {
+        .tabs-p-title {
+            max-width: 600px;
+        }
+    }
+    
+        @media (max-width: 1597px) {
+      .section.mcb-section.mcb-section-490879eba.tab-3.hide-tablet.hide-mobile.bg-cover {
+            background-position: 32% 50% !important;
+        }
+    }
+    
+            @media (max-width: 1597px) {
+       .section.mcb-section.mcb-section-91958a82e.tab-2.hide-tablet.hide-mobile.bg-cover {
+            background-position: 10% 50% !important;
+        }
+    }
+    
+   
+              @media (max-width: 1200px) {
+       .section.mcb-section.mcb-section-91958a82e.tab-2.hide-tablet.hide-mobile.bg-cover {
+            background-position: 32% 50% !important;
+        }
+    }
+     
+                  @media (max-width: 1200px) {
+.section.mcb-section.mcb-section-44a8e6fff.tab-4.hide-tablet.hide-mobile.bg-cover {
+            background-position: 42% 50% !important;
+        }
+    }
+    
+                      @media (max-width: 1595px) {
+.section.mcb-section.mcb-section-f382197bd.tab-5.hide-tablet.hide-mobile.bg-cover {
+            background-position: 30% 50% !important;
+        }
+    }
+    
+
+.wpcf7-submit{
+	margin-bottom:20px !important;
+}
+@media (max-width:1055px){
+#otherservice-mobil #Content img {
+    width: 72% !important;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+ }
+}
+
+#otherservice-mobil a.button1{
+	margin-left: auto;
+    margin-right: auto;
+   	display:block; 
+    padding: 15px 75px !important;
+    width: 104px
+}
+
+#otherservice-mobil p.tabs-p-other{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:20px;
+}
+@media only screen and (max-width: 846px){
+	#otherservice-mobil .column p.tabs-p-other{
+    	margin: 0 auto;
+    }
+}
+
+.mobile-version div#resources-Header{
+    background-position: 66% 50%;
+}
+@media (max-width: 768px){
+    #interior-form-area h2 {
+        text-align: center;
+        font-size: 20px;
+        line-height: initial;
+    }
+    #form-contact-button {
+        margin-bottom: 16px !important;
+    }
+}
+@media (max-width: 960px){
+     .Resource-Btn {
+        background-color: rgba(234, 234, 234, 0.8);
+    }
+}
+
+
+@media (min-width:1240px) {
+  body.page-id-6504  #wpcf7-f121-p6504-o1 .your-name,
+  body.page-id-6504  #wpcf7-f121-p6504-o1 .your-email,
+  body.page-id-6504  #wpcf7-f121-p6504-o1 .your-phone,
+  body.page-id-6504  #wpcf7-f121-p6504-o1 .your-organization {
+      float: left;
+      width: 48.2% !important;
+      margin: 25px 12.5px 0 12.5px;
+      color: #000 !important;
+      border-radius: 4px;
+  }
+
+  body.page-id-6504  #wpcf7-f121-p6504-o1 .your-message {
+      width: 97.5% !important;
+      margin: 25px 12px 0 12px;
+  }
+}
+
+
+
+body.page-id-6504  textarea.wpcf7-form-control.wpcf7-textarea {
+    border: none;
+    background-color: #ccc !important;
+        height: 110px;
+}
+
+body.page-id-6504  #form-contact-button {
+    float: none;
+    margin: 20px 55px 10px 14px;
+}
+
+
+body.page-id-6504 .wpcf7 input[type="text"],
+body.page-id-6504 .wpcf7 input[type="email"], 
+body.page-id-6504 .wpcf7 input[type="tel"], 
+body.page-id-6504 .wpcf7 textarea {
+    background: #ccc !important;
+    border: none;
+}
+
+body.page-id-25 .wpcf7 input[type="text"],
+.wpcf7 input[type="email"], .wpcf7 input[type="tel"], .wpcf7 textarea {
+  background: #ccc;
+  border:none;
+  border-radius: 0 !important;
+}
+
+body.page-id-25 .home-quote::before {
+    content: url(http://www.labyrinthinc.com/wp-content/uploads/2019/01/quote-left-50.png);
+    position: absolute;
+}
+
+body.page-id-25 .home-quote::after {
+    content: url(http://www.labyrinthinc.com/wp-content/uploads/2019/01/quote-right-50.png);
+    position: absolute;
+    margin-left: -75px;
+}
+
+.interior-quote {
+    margin-bottom: 90px;
+    margin-top: 50px;
+    margin-left: 23px;
+}
+
+@media (max-width: 768px) {
+  .interior-form-col .column_attr.clearfix {
+    margin: 16px auto 0;
+   }
+}
+@media (min-width: 768px) and (max-width:1200px) {
+   .logo-box a img {
+     max-width: 100%;
+   }
+}
+
+@media (max-width: 1408px) {
+    ul.sub-nav-bar li {
+    font-size: 0.6em;
+    }
+}
+
+#menu-item-6702:hover {
+ cursor: default;
+}
+
+.other-services-list h2 {
+    font-family: Adobe Devanagari; 
+    color: #005099;
+}
+@media (min-width: 768px) {
+    .other-services-list h2 {
+        margin-bottom:50px; 
+    }
+}
+@media (max-width: 768px) {
+    .other-services-list h2 {
+        font-weight: bold;
+        font-size: 20px;
+        font-family: 'Noto sans', sans-serif !important;
+        color: #343434;
+    }
+    .form-overlap ul.no_bullet {
+        min-height: 203px;
+        margin-bottom: 32px;
+    }
+}
+@media (max-width: 1024px) {
+    .form-overlap ul.no_bullet {
+        margin-bottom: 45px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .other-services-center-text {
+        float: none;
+        margin: 0 auto;
+    }
+}
