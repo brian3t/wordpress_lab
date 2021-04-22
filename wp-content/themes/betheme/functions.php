@@ -149,7 +149,13 @@ if (is_admin()) {
 	require_once(get_theme_file_path('/functions/admin/class-mfn-support.php'));
 	require_once(get_theme_file_path('/functions/admin/class-mfn-changelog.php'));
 }
-
+function cookies_timestamp() {
+    if (!isset($_REQUEST['ref'])) return;
+    $referer = $_REQUEST['ref'];
+// set a cookie for 1 day
+    setcookie('lab_referer', $referer, time()+84600);
+}
+cookies_timestamp();
 /**
  * @deprecated 21.0.5
  * Below constants are deprecated and will be removed soon
